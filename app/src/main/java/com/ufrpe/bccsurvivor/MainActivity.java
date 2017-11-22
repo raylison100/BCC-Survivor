@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myRef = database.getReference("Testando");
+                DatabaseReference myRef = database.getReference("Aula");
 
-                myRef.setValue("wallace");
+                myRef.setValue("desenvolvimento movel");
             }
         });
 
